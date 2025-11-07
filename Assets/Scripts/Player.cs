@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private bool IsGrounded;
+    private Animator animator; 
 
     float moveInput;
 
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     
@@ -38,6 +40,7 @@ public class Player : MonoBehaviour
         {
              rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
+        SetAnimation(moveInput);
            
     }
 
@@ -45,5 +48,31 @@ public class Player : MonoBehaviour
     {
         IsGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+    }
+
+    private void SetAnimation(float moveInput)
+    {
+        if (IsGrounded)
+        {
+            if (moveInput == 0)
+            {
+                animator.Play("Player_Idle");
+            }
+            else
+            {
+                animator.Play("Player_Run");
+            }
+        }
+        else
+        {
+            if (rb.velocity.y > 0)
+            {
+                animator.Play("Player_Jump");
+            }
+            else
+            {
+                animator.Play("Player_fall");
+            }
+        }
     }
 }
