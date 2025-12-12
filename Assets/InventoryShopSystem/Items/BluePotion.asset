@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e4b2230daa121468b603f1e6502e51, type: 3}
+  m_Name: BluePotion
+  m_EditorClassIdentifier: 
+  itemName: BluePotion  $50
+  icon: {fileID: 21300000, guid: 4e49875c012af01439356cfb3d2670e0, type: 2}
+  itemType: 0
+  sellValue: 50
+  buyPrice: 0
+  oneTimePurchase: 0
+  jumpIncrease: 0
+  speedIncrease: 0
+  inventoryIncrease: 0

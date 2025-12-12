@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e4b2230daa121468b603f1e6502e51, type: 3}
+  m_Name: GreenMushrooms
+  m_EditorClassIdentifier: 
+  itemName: Parasol    $10
+  icon: {fileID: 21300000, guid: cee7cebed019fed40b7fb230fabbdd1a, type: 2}
+  itemType: 0
+  sellValue: 10
+  buyPrice: 0
+  oneTimePurchase: 0
+  jumpIncrease: 0
+  speedIncrease: 0
+  inventoryIncrease: 0
