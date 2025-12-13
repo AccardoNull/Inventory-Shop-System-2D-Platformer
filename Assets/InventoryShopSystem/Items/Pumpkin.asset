@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Pumpkin
   m_EditorClassIdentifier: 
   itemName: Pumpkin   $5
-  icon: {fileID: 21300000, guid: e47d3a9782ce6904086d85588ec5ab9a, type: 2}
+  icon: {fileID: 21300000, guid: 8b9bd9af88eda6148ae634a8f3ce4e61, type: 2}
   itemType: 0
   sellValue: 5
   buyPrice: 0

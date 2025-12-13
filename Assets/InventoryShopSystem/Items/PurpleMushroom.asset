@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PurpleMushroom
   m_EditorClassIdentifier: 
   itemName: Webcap    $15
-  icon: {fileID: 21300000, guid: 76227203d0a401a4898ffd5324531786, type: 2}
+  icon: {fileID: 21300000, guid: 4d5678ad2a18af54b82d087cc3780f09, type: 2}
   itemType: 0
   sellValue: 15
   buyPrice: 0

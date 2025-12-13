@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GreenMushrooms
   m_EditorClassIdentifier: 
   itemName: Parasol    $10
-  icon: {fileID: 21300000, guid: cee7cebed019fed40b7fb230fabbdd1a, type: 2}
+  icon: {fileID: 21300000, guid: 408eb706c137a9d40ae475ea9fc88d52, type: 2}
   itemType: 0
   sellValue: 10
   buyPrice: 0

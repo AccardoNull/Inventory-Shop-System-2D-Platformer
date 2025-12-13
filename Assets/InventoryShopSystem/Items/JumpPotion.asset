@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: JumpPotion
   m_EditorClassIdentifier: 
   itemName: JumpPotion
-  icon: {fileID: 21300000, guid: 2bdd8c586e21bb34ca480a4179cfc406, type: 2}
+  icon: {fileID: 21300000, guid: 9adafe6767cad254ea8536f87364b124, type: 2}
   itemType: 1
   sellValue: 0
   buyPrice: 10
