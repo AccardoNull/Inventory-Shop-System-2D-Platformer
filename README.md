@@ -9,5 +9,7 @@ Live WebGL Demo link: [https://accardonull.github.io/Inventory-Shop-System-2D-Pl
 Control: 
 
 Arrow keys: horziontal movement
+
 Space : jump 
+
 Z : Open trade menu and pick up items
